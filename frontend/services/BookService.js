@@ -1,6 +1,6 @@
 class BookService {
   constructor() {
-    this.URL = "http://localhost:4000/api/books";
+    this.URL = "/api/books";
   }
 
   async getBooks() {
